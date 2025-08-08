@@ -1,0 +1,41 @@
+Create a Virtual Environment
+python3 -m venv env
+source env/bin/activate
+=================================
+(env) ➜  django_project
+=================
+Install django
+=====
+pip install django
+django-admin --version
+
+Create a django Project
+===============
+django-admin startproject mysite
+cd mysite
+
+Run the development Server
+===========
+python manage.py runserver
+========
+django-admin startproject projectname
+Command for Create App
+---------------
+1. Create Project using command :- django-admin startproject projectname
+2. Open Project Folder where manage.py file is present.
+3. If you want to run the project then write command:-
+python manage.py runserver
+4. For making app write command :- python manage.py startapp appname
+5. open settings.py add one line in INSTALLED_APPS[] List
+
+INSTALLED_APPS[
+    "student,
+]
+==============
+django-> http=>HttpResponse
+from django.http import HttpResponse
+==================
+<h1> abhishek </h1>
+
+
+
